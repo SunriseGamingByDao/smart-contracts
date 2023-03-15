@@ -1,0 +1,27 @@
+{
+  "name": "roulette-contract",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "compile": "truffle compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "cli-color": "^2.0.3",
+    "dotenv": "^8.6.0",
+    "ethers": "^5.6.9",
+    "lite-server": "^2.6.1",
+    "truffle": "^5.3.1",
+    "truffle-flattener": "^1.5.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.0.0",
+    "@openzeppelin/contracts-upgradeable": "^4.1.0",
+    "@truffle/hdwallet-provider": "^1.2.6",
+    "truffle-contract-size": "^2.0.1",
+    "web3": "^1.6.0"
+  }
+}
