@@ -196,7 +196,6 @@ sequenceDiagram
     participant GameChain Contract
     participant SUSD Contract (Game CHAIN)
 
-rect rgb(191, 223, 255)
     note right of SUNC Wallet: Asset CHAIN to Game CHAIN
 
 SUNC Wallet ->>+ AssetChain Contract: deposit to Game CHAIN
@@ -217,9 +216,7 @@ GameChain Contract ->>+ SUSD Contract (Game CHAIN): mint SUSD to SUNC Wallet
 SUSD Contract (Game CHAIN) -->> GameChain Contract: Success
 GameChain Contract->>Validators: Success
 deactivate GameChain Contract
-end
 
-rect rgb(191, 223, 255)
     note right of SUNC Wallet: Game CHAIN to Asset CHAIN
 
 SUNC Wallet ->>+ GameChain Contract: withdraw on Asset CHAIN
@@ -240,6 +237,5 @@ AssetChain Contract ->>+ SUSD Contract (Asset CHAIN): mint SUSD to SUNC Wallet
 SUSD Contract (Asset CHAIN) -->> AssetChain Contract: Success
 AssetChain Contract->>Validators: Success
 deactivate AssetChain Contract
-end
 ```
 
