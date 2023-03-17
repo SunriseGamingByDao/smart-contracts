@@ -1,4 +1,4 @@
-**Important notice:** The publicly available source codes may not be used, altered, copied, or distributed without permission.
+**Important notice:** The publicly available source codes can not be used, altered, copied, or distributed without permission.
 
 # Sunrise Gaming by DAO Contracts
 
