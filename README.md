@@ -10,6 +10,7 @@ This repo contains all the contracts used in Sunrise Gaming by DAO. It is divide
 | Project name                                      | Description                                                                  | Solidity version(s)      |
 | ------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------ |
 | [Brige Contract](./projects/bridge)               | Implementation of Bridge Contracts to convert your USDC into SUSD.           | 0.8.7                    |
+| [Staking Contract](https://github.com/Sunrise-Gaming-by-DAO/staking)               | Implementation of Staking contract          | 0.6.12                   |
 | [Roulette Contract](./projects/roulette)          | Implementation of Roulette Game.                                             | 0.8.9                    |
 | [Baccarat Contract](./projects/baccarat)          | Implementation of Bacarrat Game.                                             | 0.8.7                    |
 | [Sic bo Contract](./projects/sicbo)               | Implementation of Sic bo Game.                                               | 0.8.11                   |
